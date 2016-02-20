@@ -8,13 +8,6 @@
 
 import Foundation
 
-
-
-
-enum UserErrors : ErrorType {
-	case InvalidEntry
-}
-
 protocol Representable {
 	init?(dictionary: [String : AnyObject])
 	func dictionaryRepresentation() -> [String : AnyObject]
