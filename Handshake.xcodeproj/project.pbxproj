@@ -15,6 +15,10 @@
 		B56D8F1F1C78E77A0059B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56D8F1D1C78E77A0059B8C9 /* LaunchScreen.storyboard */; };
 		B56D8F2A1C78E77A0059B8C9 /* HandshakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D8F291C78E77A0059B8C9 /* HandshakeTests.swift */; };
 		B56D8F351C78E77A0059B8C9 /* HandshakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D8F341C78E77A0059B8C9 /* HandshakeUITests.swift */; };
+		B56D8F451C78F3B00059B8C9 /* adjectives.txt in Resources */ = {isa = PBXBuildFile; fileRef = B56D8F431C78F3B00059B8C9 /* adjectives.txt */; };
+		B56D8F461C78F3B00059B8C9 /* nouns.txt in Resources */ = {isa = PBXBuildFile; fileRef = B56D8F441C78F3B00059B8C9 /* nouns.txt */; };
+		B56D8F481C78F3CC0059B8C9 /* Namer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D8F471C78F3CC0059B8C9 /* Namer.swift */; };
+		B56D8F4A1C790E4C0059B8C9 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D8F491C790E4C0059B8C9 /* Primitives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B56D8F301C78E77A0059B8C9 /* HandshakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandshakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D8F341C78E77A0059B8C9 /* HandshakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandshakeUITests.swift; sourceTree = "<group>"; };
 		B56D8F361C78E77A0059B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56D8F431C78F3B00059B8C9 /* adjectives.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = adjectives.txt; sourceTree = "<group>"; };
+		B56D8F441C78F3B00059B8C9 /* nouns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nouns.txt; sourceTree = "<group>"; };
+		B56D8F471C78F3CC0059B8C9 /* Namer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Namer.swift; sourceTree = "<group>"; };
+		B56D8F491C790E4C0059B8C9 /* Primitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitives.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				B56D8F121C78E77A0059B8C9 /* AppDelegate.swift */,
+				B56D8F471C78F3CC0059B8C9 /* Namer.swift */,
+				B56D8F491C790E4C0059B8C9 /* Primitives.swift */,
 				B56D8F141C78E77A0059B8C9 /* MasterViewController.swift */,
 				B56D8F161C78E77A0059B8C9 /* DetailViewController.swift */,
 				B56D8F181C78E77A0059B8C9 /* Main.storyboard */,
 				B56D8F1B1C78E77A0059B8C9 /* Assets.xcassets */,
 				B56D8F1D1C78E77A0059B8C9 /* LaunchScreen.storyboard */,
 				B56D8F201C78E77A0059B8C9 /* Info.plist */,
+				B56D8F421C78F3B00059B8C9 /* Data */,
 			);
 			path = Handshake;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				B56D8F361C78E77A0059B8C9 /* Info.plist */,
 			);
 			path = HandshakeUITests;
+			sourceTree = "<group>";
+		};
+		B56D8F421C78F3B00059B8C9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B56D8F431C78F3B00059B8C9 /* adjectives.txt */,
+				B56D8F441C78F3B00059B8C9 /* nouns.txt */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,8 @@
 			files = (
 				B56D8F1F1C78E77A0059B8C9 /* LaunchScreen.storyboard in Resources */,
 				B56D8F1C1C78E77A0059B8C9 /* Assets.xcassets in Resources */,
+				B56D8F461C78F3B00059B8C9 /* nouns.txt in Resources */,
+				B56D8F451C78F3B00059B8C9 /* adjectives.txt in Resources */,
 				B56D8F1A1C78E77A0059B8C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56D8F171C78E77A0059B8C9 /* DetailViewController.swift in Sources */,
+				B56D8F481C78F3CC0059B8C9 /* Namer.swift in Sources */,
+				B56D8F4A1C790E4C0059B8C9 /* Primitives.swift in Sources */,
 				B56D8F151C78E77A0059B8C9 /* MasterViewController.swift in Sources */,
 				B56D8F131C78E77A0059B8C9 /* AppDelegate.swift in Sources */,
 			);
@@ -488,6 +512,7 @@
 				B56D8F3B1C78E77A0059B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56D8F3C1C78E77A0059B8C9 /* Build configuration list for PBXNativeTarget "HandshakeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +521,7 @@
 				B56D8F3E1C78E77A0059B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56D8F3F1C78E77A0059B8C9 /* Build configuration list for PBXNativeTarget "HandshakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +530,7 @@
 				B56D8F411C78E77A0059B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

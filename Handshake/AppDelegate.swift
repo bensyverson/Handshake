@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
 	var window: UIWindow?
 
+	
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
@@ -20,6 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 		let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
 		navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
 		splitViewController.delegate = self
+		
+		let namer = Namer()
+		
+		for _ in 1...20 {
+			if let name = namer.name() {
+				print(name)
+			}
+		}
+		
 		return true
 	}
 
