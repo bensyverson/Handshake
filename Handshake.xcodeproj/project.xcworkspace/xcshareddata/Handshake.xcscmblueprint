@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34B1DBA1D62BBB3AD1CDD7DA58D3EF7E27872064",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34B1DBA1D62BBB3AD1CDD7DA58D3EF7E27872064" : 0,
+    "A24669380D4B77DBB1BAC7755C7C6EE140B28089" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "941A4C8B-574B-42E6-A7B8-E4FBC81A4C2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34B1DBA1D62BBB3AD1CDD7DA58D3EF7E27872064" : "Handshake\/",
+    "A24669380D4B77DBB1BAC7755C7C6EE140B28089" : "Handshake\/OpenDHT\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Handshake",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Handshake.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bensyverson\/Handshake.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34B1DBA1D62BBB3AD1CDD7DA58D3EF7E27872064"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/savoirfairelinux\/opendht.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A24669380D4B77DBB1BAC7755C7C6EE140B28089"
+    }
+  ]
+}
